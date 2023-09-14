@@ -135,4 +135,4 @@ STATIC_ROOT = os.path.join(BASE_DIR.parent, "staticfiles")
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #TRUSTED CSRF
-CSRF_TRUSTED_ORIGINS = ["http://localhost:1337", "192.168.1.72:1337", "192.168.1.70"]
+CSRF_TRUSTED_ORIGINS = ["http://localhost:1337", "http://192.168.1.72:1337", "http://192.168.1.70:1337"]
